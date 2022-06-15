@@ -12,7 +12,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: white;
 }
 
 
@@ -24,7 +23,7 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-
+    background-color: white;
 }
 
 .loginInput {
@@ -46,9 +45,10 @@ body {
 .loginButton {
     border: none;
     height: 40px;
-    width: 60px;
+    width: 100px;
     border-radius: 4px solid black ;
     margin: 10px;
+    background-color: #F4F4F2;
 }
 
 .loginH2 {

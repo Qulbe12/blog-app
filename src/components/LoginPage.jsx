@@ -16,7 +16,7 @@ const LoginPage = () => {
   return (
     <div className={style.container}>
       <div className={style["login-card-Container"]}>
-        <h2 className={style.loginH2}>Sign In</h2>
+        <h2 className={style.loginH2}>Log In</h2>
         <input
           className={style.loginInput}
           type="email"

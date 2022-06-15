@@ -1,7 +1,7 @@
 body {
     margin: 0;
-    padding: 15px;
-    padding-top: 50px;
+    padding: 0px;
+    padding-top: 0px;
     background-color: #F4F4F2;
 }
 
@@ -17,7 +17,6 @@ body {
     align-items: center;
     justify-content: center;
 
-    background-color: #F4BFBF;
 }
 
 
@@ -30,7 +29,7 @@ body {
     justify-content: center;
     flex-direction: column;
 
-    background-color: #FAF0D7;
+    background-color: white;
 }
 
 .blogInput {
@@ -58,7 +57,8 @@ body {
     width: 90px;
     border-radius: 0px;
     margin-left: 290px;
-    background-color: #8CC0DE;
+    background-color: #F4F4F2;
+    border: none;    
 }
 
 .blogH2 {
