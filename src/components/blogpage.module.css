@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding: 15px;
+    padding-top: 50px;
+    background-color: #F4F4F2;
+}
+
+*{
+    font-family: Calibri (Body);
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #F4BFBF;
+}
+
+
+.cardContainer {
+    height: 50vh;
+    width: 50vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    background-color: #FAF0D7;
+}
+
+.blogInput {
+    width: 400px;
+    height: 30px;
+    margin: 10px;
+
+    border-radius: 10px solid black;
+
+}
+.blogTextarea{
+    font-family: Calibri (Body);
+    width: 400px;
+        height: 200px;
+        margin: 10px;
+        border: 2px solid #ccc;
+            border-radius: 4px;
+            resize: none;
+    
+        border-radius: 10px solid black;
+}
+
+.blogButton {
+    height: 50px;
+    width: 90px;
+    border-radius: 0px;
+    margin-left: 290px;
+    background-color: #8CC0DE;
+}
+
+.blogH2 {
+    margin-right: 290px;
+}
+
+
