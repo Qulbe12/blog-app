@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 import style from "./homepage.module.css";
 import { blogSelector } from "../features/blogSlice";
 import { useSelector } from "react-redux";
+import logo from "../img/blog.jpg";
 
 const HomePage = () => {
   const navigate = useNavigate();
@@ -11,7 +12,7 @@ const HomePage = () => {
   return (
     <div className={style.container}>
       <header>
-        <h2>Blogers Spot</h2>
+        <h2>Bloger's Spot</h2>
         <div>
           <button
             onClick={() => {
@@ -31,6 +32,7 @@ const HomePage = () => {
         </div>
       </header>
       <main className={style.blogs}>
+        <img src={logo} alt="logo" />
         {blogs.map((data, id) => (
           <div className={style.blogContainer}>
             <h1 key={id}>{data.name}</h1>

@@ -52,11 +52,15 @@ body {
         border-radius: 10px solid black;
 }
 
+.buttonContainer{
+    margin-left: 150px;
+}
+
 .blogButton {
     height: 50px;
     width: 90px;
     border-radius: 0px;
-    margin-left: 290px;
+    margin-left: 50px;
     background-color: #F4F4F2;
     border: none;    
 }

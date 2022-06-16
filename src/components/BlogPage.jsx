@@ -36,16 +36,27 @@ const BlogPage = () => {
           onChange={onChangeCall}
           className={style.blogTextarea}
         />
-        <button
-          className={style.blogButton}
-          onClick={() => {
-            dispatch(createBlog(state));
-            navigate("/");
-            console.log(state);
-          }}
-        >
-          Create Blog
-        </button>
+        <div className={style.buttonContainer}>
+          <button
+            className={style.blogButton}
+            onClick={() => {
+              navigate("/");
+              console.log(state);
+            }}
+          >
+            Home Page
+          </button>
+          <button
+            className={style.blogButton}
+            onClick={() => {
+              dispatch(createBlog(state));
+              navigate("/");
+              console.log(state);
+            }}
+          >
+            Create Blog
+          </button>
+        </div>
       </div>
     </div>
   );
