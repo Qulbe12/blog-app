@@ -16,6 +16,14 @@ const HomePage = () => {
         <div>
           <button
             onClick={() => {
+              console.log(blogs);
+              navigate("/createblog");
+            }}
+          >
+            Create New Blog
+          </button>
+          <button
+            onClick={() => {
               navigate("/signup");
             }}
           >
