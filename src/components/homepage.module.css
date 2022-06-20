@@ -62,3 +62,52 @@ h2{
     flex-direction: column;
     padding: 10px;
 }
+
+
+@media only screen and (max-device-width: 1494px) {
+    /* styles for mobile browsers smaller than 480px; (iPhone) */
+.container {
+        height: 50vh;
+        display: flex;
+        flex-direction: column;        
+    }
+
+        header {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            background-color: white;
+        }
+
+        img{
+            height: 250px;
+            width: 250px;
+        }
+        h2 {
+                    justify-self: start;
+                    margin-right: 0px;
+                }
+                
+        header > div {
+            margin-right: 0px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            margin-right: 0px;
+            }
+        header > div > button {
+            border-radius: 4px solid black;
+            margin-right: 0px;
+            height: 40px;
+            font-size: larger;
+            }
+
+        .blogContainer {
+                    width: 300px;
+                    display: flex;
+                    float: left;
+                    align-items: center;
+                    flex-direction: column;
+                    padding: 10px;
+            }
+}

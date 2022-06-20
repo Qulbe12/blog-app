@@ -44,7 +44,7 @@ const HomePage = () => {
         {blogs.map((data, id) => (
           <div className={style.blogContainer}>
             <h1 key={id}>{data.name}</h1>
-            <p>{data.description}</p>
+            <p key={id}>{data.description}</p>
           </div>
         ))}
       </main>
